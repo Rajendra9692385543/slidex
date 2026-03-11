@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SlideX</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:#f5f7fb;
+}
+
+.navbar{
+background:#1e3a8a;
+color:white;
+padding:16px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
+letter-spacing:1px;
+}
+
+.container{
+padding:60px 20px;
+text-align:center;
+}
+
+.title{
+font-size:32px;
+margin-bottom:50px;
+color:#222;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:35px;
+}
+
+.card{
+width:250px;
+height:170px;
+background:white;
+border-radius:12px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+color:#333;
+box-shadow:0 6px 18px rgba(0,0,0,0.1);
+transition:0.25s;
+}
+
+.card i{
+font-size:38px;
+color:#1e3a8a;
+margin-bottom:12px;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 28px rgba(0,0,0,0.18);
+}
+
+.footer{
+margin-top:60px;
+padding:20px;
+text-align:center;
+color:#777;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+<div class="logo">SlideX</div>
+<div>B.Tech CSE Presentation Portal</div>
+</div>
+
+<div class="container">
+
+<div class="title">Select Subject</div>
+
+<div class="cards">
+
+<a class="card" href="https://drive.google.com/drive/folders/1sXfSAtr9VupHt7wcbvG5HKrakm2AnsYO" target="_blank">
+<i class="fas fa-shield-alt"></i>
+Information Security
+</a>
+
+<a class="card" href="" target="_blank">
+<i class="fas fa-database"></i>
+RDBMS
+</a>
+
+<a class="card" href="" target="_blank">
+<i class="fas fa-robot"></i>
+Prompt Engineering
+</a>
+
+</div>
+
+</div>
+
+<div class="footer">
+SlideX • Smart Classroom PPT Access
+</div>
+
+</body>
+</html>
